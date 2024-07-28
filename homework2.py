@@ -1,8 +1,5 @@
-name = 'Artem'
-age = 22
-newAge = age + 1
-isStudent = True
-print('Name: ' + name)
-print("Age: " + str(age))
-print('New Age: ' + str(newAge))
-print('Is Student: ' + str(isStudent))
+countHW = 12
+hours = 1.5
+courseName = 'Python'
+timeLost = hours / countHW
+print(courseName + ", всего задач:", countHW, "затрачено часов:", hours, "среднее время выполнения", timeLost, 'часа.')
